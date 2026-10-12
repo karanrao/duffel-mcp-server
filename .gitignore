@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# Certificates (never commit corporate root CAs or keys)
+*.cer
+*.pem
+*.crt
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

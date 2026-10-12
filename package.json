@@ -1,0 +1,21 @@
+{
+  "name": "agentic-direct-duffel-mcp",
+  "version": "0.1.0",
+  "description": "MCP server wrapping the Duffel Flights API — search, book, and manage flights via agent tools.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "agentic-direct-duffel-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test:smoke": "node test/smoke-test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
